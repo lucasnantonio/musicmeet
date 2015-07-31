@@ -18,7 +18,7 @@ text-align: center;
 .jumbotron{
 	height:600px;
 	text-align: center;
-	background-image:url('/Users/lucasneumanndeantonio/GitHub/musicmeet/cover.png');
+	background-image:url('images/cover.png');
 	background-color: black;
 	background-size: cover;
 
