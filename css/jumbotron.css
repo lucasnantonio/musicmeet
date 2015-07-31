@@ -2,6 +2,8 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
+  margin-bottom:0px;
+  padding-bottom: 0px;
 }
 
 .logo {
@@ -16,7 +18,7 @@ text-align: center;
 
 
 .jumbotron{
-	height:600px;
+	height:630px;
 	text-align: center;
 	background-image:url('http://www.musicmeet.me/images/cover.png');
 	background-color: black;
@@ -36,6 +38,7 @@ text-align: center;
 }
 #argumentos{
 	text-align: center;
+	height:300px;
 }
 
 #argumentos h2{
@@ -70,4 +73,49 @@ src: url('http://www.musicmeet.com/fonts/BrandonText-Light.otf');
 
 height:375;
 max-width:275;
+}
+
+#mailchimp{
+background-color:#7BFFC1;
+height:300px;
+width:100%;
+margin:0;
+padding:0;
+}
+
+#mc_embed_signup{
+padding-top:50px;
+text-align: center;
+}
+
+#mc_embed_signup label{
+	font-family: BrandonText-Bold;
+	font-size: 24px;
+	
+}
+
+#mc_embed_signup input[type="email"]{
+	font-family: BrandonText-Light;
+	font-size: 20px;
+	padding: 15px;
+	margin-top:30px;
+	margin-bottom: 30px;
+	height:50px;
+}
+
+#mc_embed_signup input[type="submit"]{
+	font-family: BrandonText-Bold;
+	font-size: 16px;
+	
+	
+	margin-bottom: 15px;
+	height:50px;
+}
+
+
+footer{
+	background-color:#7BFFC1;
+	text-align: center;
+	height:50px;
+
 }
