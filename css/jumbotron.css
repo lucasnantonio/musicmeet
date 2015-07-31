@@ -27,7 +27,7 @@ text-align: center;
 .jumbotron h1{
 	padding-top:0px;
 	font-size:32px; !important;
-	font-family: BrandonText-Light; 
+	font-family: BrandonText-Bold; 
 	color:white;
 
 }
@@ -39,7 +39,7 @@ text-align: center;
 }
 
 #argumentos h2{
-		font-family: BrandonText-Light; 
+		font-family: BrandonText-Bold; 
 		font-size: 24px;
 }
 
@@ -56,8 +56,8 @@ text-align: center;
 
 @font-face{
 
-font-family: BrandonText;
-src: url('http://www.musicmeet.com/fonts/BrandonText.otf');
+font-family: BrandonText-Bold;
+src: url('http://www.musicmeet.com/fonts/BrandonText-Bold.otf');
 
 }
 
