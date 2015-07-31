@@ -27,7 +27,7 @@ text-align: center;
 .jumbotron h1{
 	padding-top:0px;
 	font-size:32px; !important;
-	font-family: brandon, sans;
+	font-family: BrandonText, sans;
 	color:white;
 
 }
@@ -39,7 +39,7 @@ text-align: center;
 }
 
 #argumentos h2{
-		font-family: brandon, sans;
+		font-family: BrandonText, sans;
 		font-size: 24px;
 }
 
@@ -56,7 +56,7 @@ text-align: center;
 
 @font-face{
 
-font-family: brandon;
+font-family: BrandonText;
 src: url('fonts/BrandonText.otf');
 
 }
