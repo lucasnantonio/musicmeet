@@ -1,0 +1,73 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.logo {
+
+margin-top:10px;
+
+}
+
+.navbar-header{
+text-align: center;
+}
+
+
+.jumbotron{
+	height:600px;
+	text-align: center;
+	background-image:url('/Users/lucasneumanndeantonio/GitHub/musicmeet/cover.png');
+	background-color: black;
+	background-size: cover;
+
+}
+
+.jumbotron h1{
+	padding-top:0px;
+	font-size:32px; !important;
+	font-family: brandon;
+	color:white;
+
+}
+.container{
+
+}
+#argumentos{
+	text-align: center;
+}
+
+#argumentos h2{
+		font-family: brandon;
+		font-size: 24px;
+}
+
+#argumentos p{
+		font-family: BrandonText-Light;
+		font-size: 16px;
+}
+
+.jumbotron p{
+	font-family: BrandonText-Light;
+	color:white;
+	opacity: 0.5;
+}
+
+@font-face{
+
+font-family: brandon;
+src: url('/Users/lucasneumanndeantonio/GitHub/musicmeet/BrandonText.otf');
+
+}
+
+@font-face{
+font-family: BrandonText-Light;
+src: url('/Users/lucasneumanndeantonio/GitHub/musicmeet/BrandonText-Light;.otf');
+}
+
+#perfil{
+
+height:375;
+max-width:275;
+}
