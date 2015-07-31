@@ -4,6 +4,7 @@ body {
   padding-bottom: 20px;
   margin-bottom:0px;
   padding-bottom: 0px;
+  background-color: #222222;
 }
 
 .logo {
@@ -23,6 +24,7 @@ text-align: center;
 	background-image:url('http://www.musicmeet.me/images/cover.png');
 	background-color: black;
 	background-size: cover;
+	margin-bottom: 0px;
 
 }
 
@@ -37,6 +39,7 @@ text-align: center;
 
 }
 #argumentos{
+	background-color:white;
 	padding-top:70px;
 	padding-bottom: 70px;
 	text-align: center;
