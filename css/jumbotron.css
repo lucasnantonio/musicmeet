@@ -18,7 +18,7 @@ text-align: center;
 .jumbotron{
 	height:600px;
 	text-align: center;
-	background-image:url('images/cover.png');
+	background-image:url('http://www.musicmeet.com/images/cover.png');
 	background-color: black;
 	background-size: cover;
 
@@ -57,13 +57,13 @@ text-align: center;
 @font-face{
 
 font-family: BrandonText;
-src: url('fonts/BrandonText.otf');
+src: url('http://www.musicmeet.com/fonts/BrandonText.otf');
 
 }
 
 @font-face{
 font-family: BrandonText-Light;
-src: url('fonts/BrandonText-Light.otf');
+src: url('http://www.musicmeet.com/fonts/BrandonText-Light.otf');
 }
 
 #perfil{
