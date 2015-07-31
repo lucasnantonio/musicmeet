@@ -57,13 +57,13 @@ text-align: center;
 @font-face{
 
 font-family: brandon;
-src: url('/Users/lucasneumanndeantonio/GitHub/musicmeet/BrandonText.otf');
+src: url('fonts/BrandonText.otf');
 
 }
 
 @font-face{
 font-family: BrandonText-Light;
-src: url('/Users/lucasneumanndeantonio/GitHub/musicmeet/BrandonText-Light;.otf');
+src: url('fonts/BrandonText-Light;.otf');
 }
 
 #perfil{
