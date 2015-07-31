@@ -56,6 +56,10 @@ text-align: center;
 		font-size: 16px;
 }
 
+.argumento p{
+	padding:0% 10% 0% 10%;
+}
+
 .jumbotron p{
 	font-family: BrandonText-Light;
 	color:white;
