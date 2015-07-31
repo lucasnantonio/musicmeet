@@ -37,8 +37,10 @@ text-align: center;
 
 }
 #argumentos{
+	padding-top:70px;
+	padding-bottom: 70px;
 	text-align: center;
-	height:300px;
+	
 }
 
 #argumentos h2{
