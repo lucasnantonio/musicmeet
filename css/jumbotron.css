@@ -134,8 +134,13 @@ text-align: center;
 }
 
 footer{
+	padding-top:20px;
 	background-color:#7BFFC1;
 	text-align: center;
-	height:50px;
+	height:100px;
+font-family: BrandonText-Light;
+}
 
+footer p {
+	text-align: center;
 }
