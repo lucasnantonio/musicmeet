@@ -31,7 +31,7 @@ text-align: center;
 .jumbotron h1{
 	padding-top:0px;
 	font-size:32px; !important;
-	font-family: BrandonText-Bold; 
+	font-family: BrandonText-Bold, Helvetica, Arial, sans-serif; 
 	color:white;
 
 }
@@ -47,12 +47,12 @@ text-align: center;
 }
 
 #argumentos h2{
-		font-family: BrandonText-Bold; 
+		font-family: BrandonText-Bold, Helvetica, Arial, sans-serif; 
 		font-size: 24px;
 }
 
 #argumentos p{
-		font-family: BrandonText-Light;
+		font-family: BrandonText-Light, Helvetica, Arial, sans-serif;
 		font-size: 16px;
 }
 
@@ -61,7 +61,7 @@ text-align: center;
 }
 
 .jumbotron p{
-	font-family: BrandonText-Light;
+	font-family: BrandonText-Light, Helvetica, Arial, sans-serif;
 	color:white;
 	opacity: 0.5;
 }
