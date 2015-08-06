@@ -21,7 +21,7 @@ text-align: center;
 .jumbotron{
 	height:630px;
 	text-align: center;
-	background-image:url('http://www.musicmeet.me/images/cover.png');
+	/*background-image:url('http://www.musicmeet.me/images/cover.png');*/
 	background-color: black;
 	background-size: cover;
 	margin-bottom: 0px;
@@ -35,9 +35,21 @@ text-align: center;
 	color:white;
 
 }
-.container{
 
+#main_vp {
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 40px;
 }
+
+#main_vp h1 {
+	font-size: 2.8em;
+}
+
+#main_vp p {
+	font-size: 1.7em;
+}
+
 #argumentos{
 	background-color:white;
 	padding-top:70px;
