@@ -1,0 +1,158 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-bottom:0px;
+  padding-bottom: 0px;
+  background-color: #222222;
+}
+
+.logo {
+
+margin-top:10px;
+
+}
+
+.navbar-header{
+text-align: center;
+}
+
+
+.jumbotron{
+	height:630px;
+	text-align: center;
+	/*background-image:url('http://www.musicmeet.me/images/cover.png');*/
+	background-color: black;
+	background-size: cover;
+	margin-bottom: 0px;
+
+}
+
+.jumbotron h1{
+	padding-top:0px;
+	font-size:32px; !important;
+	font-family: BrandonText-Bold, Helvetica, Arial, sans-serif; 
+	color:white;
+
+}
+
+#main_vp {
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 40px;
+}
+
+#main_vp h1 {
+	font-size: 2.8em;
+}
+
+#main_vp p {
+	font-size: 1.7em;
+}
+
+#argumentos{
+	background-color:white;
+	padding-top:70px;
+	padding-bottom: 70px;
+	text-align: center;
+	
+}
+
+#argumentos h2{
+		font-family: BrandonText-Bold, Helvetica, Arial, sans-serif; 
+		font-size: 24px;
+}
+
+#argumentos p{
+		font-family: BrandonText-Light, Helvetica, Arial, sans-serif;
+		font-size: 16px;
+}
+
+.argumento p{
+	padding:0% 10% 0% 10%;
+}
+
+.jumbotron p{
+	font-family: BrandonText-Light, Helvetica, Arial, sans-serif;
+	color:white;
+	opacity: 0.5;
+}
+
+@font-face{
+
+font-family: BrandonText-Bold;
+src: url('https://dl.dropboxusercontent.com/u/123061323/Fonts/BrandonText-Bold.otf');
+
+}
+
+@font-face{
+font-family: BrandonText-Light;
+src: url('https://dl.dropboxusercontent.com/u/123061323/Fonts/BrandonText-Light.otf');
+}
+
+#perfil{
+
+height:375;
+width:275;
+}
+
+#mailchimp{
+background-color:#7BFFC1;
+height:300px;
+width:100%;
+margin:0;
+padding:0;
+}
+
+#mc_embed_signup{
+padding-top:50px;
+text-align: center;
+}
+
+#mc_embed_signup label{
+	font-family: BrandonText-Bold;
+	font-size: 24px;
+	
+}
+
+#mc_embed_signup input[type="email"]{
+	font-family: BrandonText-Light;
+	font-size: 20px;
+	padding: 15px;
+	margin-top:30px;
+	margin-bottom: 30px;
+	height:50px;
+}
+
+#mc_embed_signup input[type="submit"]{
+	font-family: BrandonText-Bold;
+	font-size: 16px;
+	
+	
+	margin-bottom: 15px;
+	height:50px;
+}
+
+.btn-black{
+	background-color: #222222;
+	color:white;
+	border:none;
+	border-radius: 2px;
+	padding:5px 20px 5px 20px;
+}
+
+.btn-black:hover{
+	opacity: 0.9;
+}
+
+footer{
+	padding-top:20px;
+	background-color:#7BFFC1;
+	text-align: center;
+	height:100px;
+font-family: BrandonText-Light;
+}
+
+footer p {
+	text-align: center;
+}
