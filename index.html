@@ -32,6 +32,8 @@
     <link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
     <script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.js'></script>
     <!-- fim parte do mapbox -->
+
+    <link rel="stylesheet" type="text/css" href="css/popup.css">
   </head>
 
   <body>
@@ -51,34 +53,52 @@
     <!-- adicionei id "map" pra lodear o mapa -->
     <div class="jumbotron" id="map">
 
-    
-
-
-
-      <!-- <div id="perfil" class="container col-md-6 col-md-offset-3 col-sm-8">
-        <img src="images/perfil.png">
-        
-      </div>
-      <div class="container col-md-6 col-md-offset-3 col-sm-8">
-        <h1>Encontre pessoas pra fazer um som</h1>
-        <p>Precisa de um vocalista pra sua banda de rock? Ou um violão pra acompanhar sua voz? Aqui é o lugar!</p>
-        
-      </div> -->
-    </div>
-
-    <!-- script pra lodear o mapa -->
+      <!-- script pra lodear o mapa -->
     <script type="text/javascript"> //inicializcao do mapbox
       L.mapbox.accessToken = 'pk.eyJ1IjoiZmFyYWhmaWxobyIsImEiOiJhYTBlY2E2NzlkNDlkZGJkN2Y2ZTgzOTcwNmU0MmJlZCJ9.QhNd20oWtVHFADqw3eDclQ';
-     var map = L.mapbox.map('map', 'mapbox.streets').setView([-23.683, -46.596], 15);
+     var map = L.mapbox.map('map', 'mapbox.streets').setView([-23.549, -46.633], 15);
     </script><!-- fim script lodear mapa -->
   
     <!-- add alguns pontos no mapa -->
     <script type="text/javascript">
 
-      L.marker([-23.683, -46.596])
-        .bindPopup('<p>Fernando Souza</p>')
-        .addTo(map);
+      L.marker([-23.549, -46.633])
+        .bindPopup('<p id="nome_popup">Fernando Souza</p>' +
+          '<img  src="">' +
+          '<div id="popup_wrapper">' +
+          '<p>Procurando uma galera em Pinheiros/Vila Madalena pra tocar covers só pela curtição, sem compromisso! Bora!</p>' +
+          '<h2>Toca</h2>' +
+          '<ul id="instrumentos">' +
+            '<li><p><strong>Voz</strong> há 2 anos</p></li>' +
+            '<li><p><strong>Bateria</strong> desde sempre</p></li>' +
+          '</ul>' +
+          '<h2>Estilos</h2>' +
+          '<ul id="estilos">' +
+            '<li>Indie Rock</li>' +
+            '<li>Pop Rock</li>' +
+            '<li>Groove</li>' +
+            '<li>Funk</li>'+
+          '</ul>' +
+          '<h2>Ouça uma demo</h2>' +
+          '<ul>' +
+            '<li><a href=""><img src=""></a></li>' +
+            '<li><a href=""><img src=""></a></li>' +
+          '</ul>' +
+          '</div>')
+        .addTo(map)
+        .openPopup();
     </script><!-- fim de add pontos no mapa -->
+
+    
+      <div class="container col-md-6 col-md-offset-3 col-sm-8" id="main_vp">
+        <h1>Encontre pessoas pra fazer um som</h1>
+        <p>Precisa de um vocalista pra sua banda de rock? Ou um violão pra acompanhar sua voz? Aqui é o lugar!</p>
+        
+      </div>
+
+    </div>
+
+    
 
     
     <div id="argumentos" class="container-fluid">

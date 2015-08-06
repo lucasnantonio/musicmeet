@@ -35,9 +35,21 @@ text-align: center;
 	color:white;
 
 }
-.container{
 
+#main_vp {
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 40px;
 }
+
+#main_vp h1 {
+	font-size: 2.8em;
+}
+
+#main_vp p {
+	font-size: 1.7em;
+}
+
 #argumentos{
 	background-color:white;
 	padding-top:70px;

@@ -1,0 +1,70 @@
+.leaflet-popup-close-button {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.leaflet-popup-content {
+	/*display: table;*/
+	padding: 0 !important;
+}
+
+#nome_popup {
+	background-color: #000;
+	font-family: BrandonText-Bold, Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	opacity: 1;
+	width: 100%;
+	padding: 40px 0;
+	text-align: center;
+	margin: 0;
+	/*vertical-align: middle;*/
+	/*display: table-row;*/
+}
+
+#popup_wrapper {
+	padding: 25px;
+}
+
+#popup_wrapper p {
+	color: #000;
+	margin: 0;
+}
+
+#popup_wrapper h2 {
+	font-family: BrandonText-Bold, Helvetica, Arial, sans-serif;
+	font-size: 0.9em;
+	opacity: 0.3;
+	text-transform: uppercase;
+	margin: 15px 0 0;
+}
+
+.leaflet-popup-content ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.leaflet-popup-content li {
+	display: inline-block;
+}
+
+#instrumentos strong {
+	font-family: BrandonText-Bold, Helvetica, Arial, sans-serif;;
+}
+
+#instrumentos li {
+	padding-right: 10px;
+}
+
+#estilos li {
+	background-color: #555;
+	color: #fff;
+	font-family: BrandonText-Light, Helvetica, Arial, sans-serif;;
+	font-size: 0.9em;
+	padding: 2px 5px;
+	margin-right: 5px;
+	border-radius: 2px;
+}
+
+/*.leaflet-popup-content*/
