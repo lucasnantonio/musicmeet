@@ -134,7 +134,8 @@ text-align: center;
 }
 
 .btn-black{
-	background-color: #222222;
+	background-color: #42496F;
+
 	color:white;
 	border:none;
 	border-radius: 2px;
@@ -155,4 +156,9 @@ font-family: BrandonText-Light;
 
 footer p {
 	text-align: center;
+}
+
+#mailchimp, footer{
+background-color:#616FBB;
+color:white;
 }
