@@ -38,7 +38,12 @@
 
   <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <!-- adicionei id "map" pra lodear o mapa -->
+    <div class="jumbotron" id="map">
+    <nav class="navbar  navbar-static-top">
       <div class="container">
         <div class="navbar-header">
           
@@ -48,17 +53,12 @@
 
       </div>
     </nav>
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <!-- adicionei id "map" pra lodear o mapa -->
-    <div class="jumbotron" id="map">
-
       <!-- script pra lodear o mapa -->
     <script type="text/javascript"> //inicializcao do mapbox
       L.mapbox.accessToken = 'pk.eyJ1IjoibHVjYXNuZXVtYW5uIiwiYSI6IjAyYzQ1MGRiY2VkZjZmZjhjZjVhOGRjN2JkMmVlZTVkIn0.2kYn63mRgYlfrzc6ROR8Ug';
      var map = L.mapbox.map('map', 'lucasneumann.4dbde3ed', {
       zoomControl: false
-     }).setView([-23.549, -46.633], 15);
+     }).setView([-23.547, -46.633], 15);
 
       map.touchZoom.disable();
       map.doubleClickZoom.disable();
@@ -68,7 +68,7 @@
     <!-- add alguns pontos no mapa -->
     <script type="text/javascript">
 
-      L.marker([-23.549, -46.633])
+      L.marker([-23.555, -46.633])
         .bindPopup('<p id="nome_popup">Fernando Souza' +
           '<a href="#"><img  src="images/message.png" height="10"></a>' +
           '</p>' +

@@ -1,6 +1,6 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 50px;
+  padding-top: 0px;
   padding-bottom: 20px;
   margin-bottom:0px;
   padding-bottom: 0px;
@@ -8,9 +8,15 @@ body {
 }
 
 .logo {
-
+width:150px;
 margin-top:10px;
 
+}
+
+.navbar{
+	margin-top:0px;
+	height:30px;
+	margin-bottom:50px;
 }
 
 .navbar-header{
@@ -19,12 +25,13 @@ text-align: center;
 
 
 .jumbotron{
-	height:630px;
+	height:690px;
 	text-align: center;
 	/*background-image:url('http://www.musicmeet.me/images/cover.png');*/
 	background-color: black;
 	background-size: cover;
 	margin-bottom: 0px;
+	padding-top:15px;
 
 }
 
