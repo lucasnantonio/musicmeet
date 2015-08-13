@@ -67,9 +67,21 @@
   
     <!-- add alguns pontos no mapa -->
     <script type="text/javascript">
+      var mmmicon = L.icon({
+        iconUrl: 'images/map_icon-06.png',
+        // iconRetinaUrl: 'my-icon@2x.png',
+        iconSize: [24, 30],
+        iconAnchor: [11, 30],
+        popupAnchor: [0, -30],
+        // shadowUrl: 'my-icon-shadow.png',
+        // shadowRetinaUrl: 'my-icon-shadow@2x.png',
+        // shadowSize: [68, 95],
+        // shadowAnchor: [22, 94]
+      });
 
-      L.marker([-23.556, -46.620])
-        .bindPopup('<p id="nome_popup">Fernando Souza' +
+
+      L.marker([-23.556, -46.620], {icon: mmmicon})
+        .bindPopup('<p id="fernando_popup" class="popup">Fernando Souza' +
           '<a href="#"><img  src="images/message.png" height="10"></a>' +
           '</p>' +
           '<div id="popup_wrapper">' +
@@ -94,6 +106,57 @@
           '</div>')
         .addTo(map)
         .openPopup();
+
+        L.marker([-23.544, -46.643], {icon: mmmicon})
+        .bindPopup('<p id="adriano_popup" class="popup">Adriano Forpado' +
+          '<a href="#"><img  src="images/message.png" height="10"></a>' +
+          '</p>' +
+          '<div id="popup_wrapper">' +
+          '<p>Toco samba e rockzinhos brasileiros e internacionais, tipo Los Hermanos e Red Hot</p>' +
+          '<h2>Toca</h2>' +
+          '<ul id="instrumentos">' +
+            '<li><p><strong>Violão</strong> há 3 anos</p></li>' +
+            '<li><p><strong>Cuica</strong> desde sempre</p></li>' +
+          '</ul>' +
+          '<h2>Estilos</h2>' +
+          '<ul id="estilos">' +
+            '<li>Samba</li>' +
+            '<li>Pop Rock</li>' +
+            '<li>MPB</li>' +
+          '</ul>' +
+          '<h2>Ouça uma demo</h2>' +
+          '<ul id="demos">' +
+            '<li><a href="http://soundcloud.com" target="_blank"><img src="images/sc.jpg" width="35" height="35"></a></li>' +
+            '<li><a href="http://youtube.com" target="_blank"><img src="images/yt.jpg" width="35" height="35"></a></li>' +
+          '</ul>' +
+          '</div>')
+        .addTo(map);
+
+
+        L.marker([-23.539, -46.630], {icon: mmmicon})
+        .bindPopup('<p id="taki_popup" class="popup">Taki Shimagi' +
+          '<a href="#"><img  src="images/message.png" height="10"></a>' +
+          '</p>' +
+          '<div id="popup_wrapper">' +
+          '<p>Comecei tocando covers de rock quando tinha 5 anos, hoje ainda toco alguns de rock indie mas estou focando em produção própria.</p>' +
+          '<h2>Toca</h2>' +
+          '<ul id="instrumentos">' +
+            '<li><p><strong>Baixo</strong> há 15 anos</p></li>' +
+            '<li><p><strong>Teclado</strong> desde sempre</p></li>' +
+          '</ul>' +
+          '<h2>Estilos</h2>' +
+          '<ul id="estilos">' +
+            '<li>Indie Rock</li>' +
+            '<li>Pop Rock</li>' +
+            '<li>Rock</li>' +
+          '</ul>' +
+          '<h2>Ouça uma demo</h2>' +
+          '<ul id="demos">' +
+            '<li><a href="http://soundcloud.com" target="_blank"><img src="images/sc.jpg" width="35" height="35"></a></li>' +
+            '<li><a href="http://youtube.com" target="_blank"><img src="images/yt.jpg" width="35" height="35"></a></li>' +
+          '</ul>' +
+          '</div>')
+        .addTo(map);
     </script><!-- fim de add pontos no mapa -->
 
     
@@ -112,17 +175,17 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="argumento col-md-4">
-          <img src="/images/Ilustra_01.png">
+          <img src="images/Ilustra_01.png">
           <h2>Complete sua banda</h2>
           <p>Encontre o músico que faltava pra fazer o som que você sempre quis. </p>
         </div>
         <div class="argumento col-md-4">
-          <img src="/images/Ilustra_02.png">
+          <img src="images/Ilustra_02.png">
           <h2>Músicos perto de você</h2>
           <p>Quem sabe seu vizinho de baixo não é o baixo que faltava na sua banda? \o/</p>
        </div>
         <div class="argumento col-md-4">
-          <img src="/images/Ilustra_03.png">
+          <img src="images/Ilustra_03.png">
           <h2>Pra todo mundo</h2>
           <p>Filtre por experiência, e ouça uma demo pra saber se a pessoa é profissa ou tá começando</p>
         </div>

@@ -9,7 +9,7 @@
 	padding: 0 !important;
 }
 
-#nome_popup{
+.leaflet-container .popup {
 	background-color: #ED217C;
 	font-family: BrandonText-Bold, Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
@@ -18,22 +18,37 @@
 	padding: 40px 0;
 	text-align: center;
 	margin: 0;
+	border-radius: 2px 2px 0 0;
 }
 
-#nome_popup:before {
-	content: "";
+#fernando_popup:before{
 	background: url('../images/baby-drummer.jpeg') no-repeat center;
 	background-size: cover;
+}
+
+#adriano_popup:before{
+	background: url('../images/adriano.jpg') no-repeat center;
+	background-size: cover;
+}
+
+#taki_popup:before{
+	background: url('../images/taki.jpg') no-repeat center;
+	background-size: cover;
+}
+
+.leaflet-container .popup:before {
+	content: "";
 	opacity: 0.5;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100px;
 	position: absolute;
-	z-index: -1;   
+	z-index: -1;
+	border-radius: 2px 2px 0 0;
 }
 
-#nome_popup img {
+.popup img {
 	position: absolute;
 	right: 10px;
 	top: 45px;
