@@ -38,12 +38,7 @@
 
   <body>
 
-
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <!-- adicionei id "map" pra lodear o mapa -->
-    <div class="jumbotron" id="map">
-    <nav class="navbar  navbar-static-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           
@@ -53,25 +48,23 @@
 
       </div>
     </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <!-- adicionei id "map" pra lodear o mapa -->
+    <div class="jumbotron" id="map">
+
       <!-- script pra lodear o mapa -->
     <script type="text/javascript"> //inicializcao do mapbox
-      L.mapbox.accessToken = 'pk.eyJ1IjoibHVjYXNuZXVtYW5uIiwiYSI6IjAyYzQ1MGRiY2VkZjZmZjhjZjVhOGRjN2JkMmVlZTVkIn0.2kYn63mRgYlfrzc6ROR8Ug';
-     var map = L.mapbox.map('map', 'lucasneumann.4dbde3ed', {
-      zoomControl: false
-     }).setView([-23.547, -46.633], 15);
-
-      map.touchZoom.disable();
-      map.doubleClickZoom.disable();
-      map.scrollWheelZoom.disable();
+      L.mapbox.accessToken = 'pk.eyJ1IjoiZmFyYWhmaWxobyIsImEiOiJhYTBlY2E2NzlkNDlkZGJkN2Y2ZTgzOTcwNmU0MmJlZCJ9.QhNd20oWtVHFADqw3eDclQ';
+     var map = L.mapbox.map('map', 'farahfilho.n04boned').setView([-23.549, -46.633], 15);
     </script><!-- fim script lodear mapa -->
   
     <!-- add alguns pontos no mapa -->
     <script type="text/javascript">
 
-      L.marker([-23.556, -46.620])
-        .bindPopup('<p id="nome_popup">Fernando Souza' +
-          '<a href="#"><img  src="images/message.png" height="10"></a>' +
-          '</p>' +
+      L.marker([-23.549, -46.633])
+        .bindPopup('<p id="nome_popup">Fernando Souza</p>' +
+          '<img  src="">' +
           '<div id="popup_wrapper">' +
           '<p>Procurando uma galera em Pinheiros/Vila Madalena pra tocar covers só pela curtição, sem compromisso! Bora!</p>' +
           '<h2>Toca</h2>' +
@@ -87,9 +80,9 @@
             '<li>Funk</li>'+
           '</ul>' +
           '<h2>Ouça uma demo</h2>' +
-          '<ul id="demos">' +
-            '<li><a href="http://soundcloud.com" target="_blank"><img src="images/sc.jpg" width="35" height="35"></a></li>' +
-            '<li><a href="http://youtube.com" target="_blank"><img src="images/yt.jpg" width="35" height="35"></a></li>' +
+          '<ul>' +
+            '<li><a href=""><img src=""></a></li>' +
+            '<li><a href=""><img src=""></a></li>' +
           '</ul>' +
           '</div>')
         .addTo(map)
@@ -97,7 +90,7 @@
     </script><!-- fim de add pontos no mapa -->
 
     
-      <div class="container col-md-4  col-sm-6 col-xs-9" id="main_vp">
+      <div class="container col-md-6 col-md-offset-3 col-sm-8" id="main_vp">
         <h1>Encontre pessoas pra fazer um som</h1>
         <p>Precisa de um vocalista pra sua banda de rock? Ou um violão pra acompanhar sua voz? Aqui é o lugar!</p>
         
@@ -114,7 +107,7 @@
         <div class="argumento col-md-4">
           <img src="/images/Ilustra_01.png">
           <h2>Complete sua banda</h2>
-          <p>Encontre o músico que faltava pra fazer o som que você sempre quis. </p>
+          <p>Encontre o instrumento que faltava pra fazer o som que você sempre quis. </p>
         </div>
         <div class="argumento col-md-4">
           <img src="/images/Ilustra_02.png">

@@ -2,41 +2,23 @@
 	position: absolute;
 	top: 0;
 	right: 0;
-	z-index: 100;
 }
 
 .leaflet-popup-content {
+	/*display: table;*/
 	padding: 0 !important;
 }
 
-#nome_popup{
-	background-color: #ED217C;
+#nome_popup {
+	background-color: #000;
 	font-family: BrandonText-Bold, Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
-	opacity: 0.9;
+	opacity: 1;
 	width: 100%;
 	padding: 40px 0;
 	text-align: center;
-	margin: 0;
-}
-
-#nome_popup:before {
-	content: "";
-	background: url('../images/baby-drummer.jpeg') no-repeat center;
-	background-size: cover;
-	opacity: 0.5;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100px;
-	position: absolute;
-	z-index: -1;   
-}
-
-#nome_popup img {
-	position: absolute;
-	right: 10px;
-	top: 45px;
+	/*vertical-align: middle;*/
+	/*display: table-row;*/
 }
 
 .leaflet-popup-content-wrapper {
@@ -87,10 +69,5 @@
 	margin-right: 5px;
 	border-radius: 2px;
 }
-
-#demos li {
-	padding-right: 5px;	
-}
-
 
 /*.leaflet-popup-content*/
