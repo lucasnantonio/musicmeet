@@ -1,6 +1,6 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  padding-top: 50px;
+  padding-top: 0px;
   padding-bottom: 20px;
   margin-bottom:0px;
   padding-bottom: 0px;
@@ -8,9 +8,15 @@ body {
 }
 
 .logo {
-
+width:180px;
 margin-top:10px;
 
+}
+
+.navbar{
+	margin-top:0px;
+	height:30px;
+	margin-bottom:50px;
 }
 
 .navbar-header{
@@ -19,12 +25,13 @@ text-align: center;
 
 
 .jumbotron{
-	height:630px;
-	text-align: center;
+	height:670px;
+	text-align: left;
 	/*background-image:url('http://www.musicmeet.me/images/cover.png');*/
 	background-color: black;
 	background-size: cover;
 	margin-bottom: 0px;
+	padding-top:15px;
 
 }
 
@@ -38,16 +45,19 @@ text-align: center;
 
 #main_vp {
 	position: absolute;
-	bottom: 0;
-	padding-bottom: 40px;
+	left:50px;
+	margin-top:100px;
 }
 
 #main_vp h1 {
-	font-size: 2.8em;
+	font-size: 3.8em;
+	line-height: 1.2em;
+	margin-bottom:1em;
 }
 
 #main_vp p {
-	font-size: 1.7em;
+	font-size: 2em;
+		line-height: 1.2em;
 }
 
 #argumentos{
@@ -134,7 +144,8 @@ text-align: center;
 }
 
 .btn-black{
-	background-color: #222222;
+	background-color: #42496F;
+
 	color:white;
 	border:none;
 	border-radius: 2px;
@@ -155,4 +166,30 @@ font-family: BrandonText-Light;
 
 footer p {
 	text-align: center;
+}
+
+#mailchimp, footer{
+background-color:#616FBB;
+color:white;
+}
+
+@media screen and (max-width: 760px) {
+    .leaflet-popup{
+    	visibility:hidden;
+    }
+    #main_vp{
+    	margin-top: 30px;
+    }
+   .jumbotron #main_vp h1 {
+    	text-align: center;
+    	font-size: 3em;
+    }
+    .jumbotron #main_vp p {
+    	text-align: center;
+    	font-size: 1.8em;
+    }
+    .jumbotron{
+    	height:550px;
+    }
+
 }
