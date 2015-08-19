@@ -188,8 +188,6 @@ footer a:hover {
 	color:white;
 }
 
-.disable {pointer-events: none;}
-
 @media screen and (max-width: 760px) {
     .leaflet-popup{
     	visibility:hidden;
@@ -207,6 +205,10 @@ footer a:hover {
     }
     .jumbotron{
     	height:550px;
+    }
+
+    #map {
+    	pointer-events: none;
     }
 
 }

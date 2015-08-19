@@ -64,29 +64,6 @@
       map.doubleClickZoom.disable();
       map.scrollWheelZoom.disable();
 
-      // media query event handler
-      if (matchMedia) {
-        var mq = window.matchMedia("(min-width: 760px)");
-        mq.addListener(WidthChange);
-        WidthChange(mq);
-      }
-
-      // media query change
-      function WidthChange(mq) {
-        var mapel = document.getElementById('map');
-
-        if (mq.matches) {
-          // window width is at least 760px
-          map.dragging.enable();
-          mapel.className = mapel.className.replace('disable', '');
-        }
-        else {
-          // window width is less than 760px
-          map.dragging.disable();
-          mapel.className += ' disable';
-        }
-      }
-
     </script><!-- fim script lodear mapa -->
   
     <!-- add alguns pontos no mapa -->
