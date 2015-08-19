@@ -184,9 +184,11 @@ footer a:hover {
 }
 
 #mailchimp, footer{
-background-color:#616FBB;
-color:white;
+	background-color:#616FBB;
+	color:white;
 }
+
+.disable {pointer-events: none;}
 
 @media screen and (max-width: 760px) {
     .leaflet-popup{
