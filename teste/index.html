@@ -63,6 +63,27 @@
       map.touchZoom.disable();
       map.doubleClickZoom.disable();
       map.scrollWheelZoom.disable();
+
+      // media query event handler
+      if (matchMedia) {
+        var mq = window.matchMedia("(min-width: 760px)");
+        mq.addListener(WidthChange);
+        WidthChange(mq);
+      }
+
+      // media query change
+      function WidthChange(mq) {
+
+        if (mq.matches) {
+          // window width is at least 760px
+          map.dragging.enable();
+        }
+        else {
+          // window width is less than 760px
+          map.dragging.disable();
+        }
+      }
+
     </script><!-- fim script lodear mapa -->
   
     <!-- add alguns pontos no mapa -->
