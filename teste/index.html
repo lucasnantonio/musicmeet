@@ -55,11 +55,6 @@
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 
-    
-    <div id="fb_wrap">
-      <div class="fb-like" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
-    </div>
-
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <!-- adicionei id "map" pra lodear o mapa -->
     <div class="jumbotron" id="map">
@@ -81,6 +76,7 @@
       zoomControl: false
      }).setView([-23.547, -46.633], 15);
 
+      map.dragging.disable();
       map.touchZoom.disable();
       map.doubleClickZoom.disable();
       map.scrollWheelZoom.disable();
@@ -183,7 +179,7 @@
 
       <div class="container col-md-4  col-sm-6 col-xs-9" id="main_vp">
         <h1>Encontre pessoas pra fazer um som</h1>
-        <p>Precisa de um vocalista pra sua banda de rock? Ou um violão pra acompanhar sua voz? Aqui é o lugar!</p>
+        <p>Tá faltando um baterista pra sua banda? Ou um violão para acompanhar sua voz? Aqui é o lugar!</p>
         
       </div>
 
@@ -201,12 +197,12 @@
         <div class="argumento col-md-4">
           <img src="images/Ilustra_02.png">
           <h2>Músicos perto de você</h2>
-          <p>Quem sabe seu vizinho de baixo não é o baixo que faltava na sua banda? \o/</p>
+          <p>Quem sabe seu vizinho de baixo não é o baixo que faltava na sua banda?</p>
        </div>
         <div class="argumento col-md-4">
           <img src="images/Ilustra_03.png">
-          <h2>Pra todo mundo</h2>
-          <p>Filtre por experiência, e ouça uma demo pra saber se a pessoa é profissa ou tá começando</p>
+          <h2>Afine sua busca</h2>
+          <p>Filtre por estilo musical, experiência, e ouça uma demo para saber se é a pessoa que está procurando</p>
         </div>
       </div>
     </div>
@@ -220,7 +216,7 @@
 
 
                   <div class="mc-field-group">
-                    <label for="mce-EMAIL">Estamos só passando o som. <br> Cadastre-se para estar entre os primeiros usuários!
+                    <label for="mce-EMAIL">Ainda estamos passando o som! <br> Cadastre-se para ser avisado quando o show for começar e seja um dos primeiros usuários!
                     </label>
                     <input type="email" value="" name="EMAIL" placeholder="Seu Email" class="required email, form-control" id="mce-EMAIL">
                   </div>
@@ -230,7 +226,12 @@
                     <div class="response" id="mce-success-response" style="display:none"></div>
                   </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                   <div style="position: absolute; left: -5000px;"><input type="text" name="b_49dd0cdee73cdefa50cdec479_31067d83f2" tabindex="-1" value=""></div>
-                  <div class="clear"><input type="submit" value="Registre-se" name="subscribe" id="mc-embedded-subscribe" class="btn-black"></div>
+                  <div class="clear"><input type="submit" value="Registre-se" name="subscribe" id="mc-embedded-subscribe" class="btn-black">
+
+                    <div id="fb_wrap">
+                      <div class="fb-like" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+                    </div>
+                  </div>
                 </div>
               </form>
             </div>
