@@ -11,6 +11,13 @@
 
     <title>Musicmeet</title>
 
+    <!-- Facebook Like Meta Tags -->
+    <meta property="og:url"           content="https://developers.facebook.com/docs/plugins/" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="Your Website Title" />
+    <meta property="og:description"   content="Your description" />
+
+
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -37,12 +44,23 @@
   </head>
 
   <body>
-
-
+    
+    <!-- javascript sdk do facebook -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "http://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.4";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <!-- adicionei id "map" pra lodear o mapa -->
     <div class="jumbotron" id="map">
+
+    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="100px" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+
     <nav class="navbar  navbar-static-top">
       <div class="container">
         <div class="navbar-header">
@@ -160,7 +178,6 @@
         .addTo(map);
     </script><!-- fim de add pontos no mapa -->
 
-    
       <div class="container col-md-4  col-sm-6 col-xs-9" id="main_vp">
         <h1>Encontre pessoas pra fazer um som</h1>
         <p>Precisa de um vocalista pra sua banda de rock? Ou um violão pra acompanhar sua voz? Aqui é o lugar!</p>
@@ -169,10 +186,8 @@
 
     </div>
 
-    
-
-    
     <div id="argumentos" class="container-fluid">
+
       <!-- Example row of columns -->
       <div class="row">
         <div class="argumento col-md-4">

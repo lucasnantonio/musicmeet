@@ -13,6 +13,12 @@ margin-top:10px;
 
 }
 
+.fb-like, .fb_iframe_widget {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
 .navbar{
 	margin-top:0px;
 	height:30px;
