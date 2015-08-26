@@ -189,6 +189,10 @@ footer a:hover {
 	text-decoration: none;
 }
 
+footer p{
+display:inline;
+}
+
 #mailchimp, footer{
 	background-color:#616FBB;
 	color:white;
